@@ -1,7 +1,8 @@
 <h1>Posts#index</h1>
-
+<p>discription</p>
 <ul>
 	<% @posts.each do |p| %>
 	<li><%= p.text %></li>
 	<% end %>
+	<%= link_to 'データを表示',  hoges_new_path(id:2) %>
 </ul>
