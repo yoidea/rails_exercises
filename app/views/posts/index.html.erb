@@ -4,5 +4,10 @@
 	<% @posts.each do |p| %>
 	<li><%= p.text %></li>
 	<% end %>
-	<%= link_to 'データを表示',  hoges_new_path(id:2) %>
+	<%= link_to 'データを追加', text: 'test', action: 'new' %>
+	<form method="get" action="new">
+	<input type="text" name="text">
+	<input type="submit" value="送信">
+	</p>
+	</form>
 </ul>
