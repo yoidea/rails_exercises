@@ -1,0 +1,15 @@
+current directory: /Users/yoidea/Study/rails_exercises/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+/Users/yoidea/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20180615-12262-f12v5s.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yoidea/Study/rails_exercises/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/yoidea/Study/rails_exercises/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/yoidea/Study/rails_exercises/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20180615-12262-l0j3zs/bindex

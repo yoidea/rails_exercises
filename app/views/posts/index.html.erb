@@ -1,11 +1,11 @@
 <h1>Posts#index</h1>
-<ul>
+<ul class="collection">
 	<% @posts.each do |p| %>
-	<li><%= p.text %></li>
+		<li class="collection-item grey darken-2"><%= p.text %><a href="#!" class="secondary-content"><i class="red">削除</i></a></li>
 	<% end %>
 </ul>
-<form method="get" action="new">
-	<input type="text" name="text">
-	<input type="submit" value="送信">
+
+<form class="form" method="get" action="new">
+	<input class="white-text" type="text" name="text">
+	<input class="btn btn-large" type="submit" value="送信">
 </form>
-<%= link_to 'testを追加', text: 'test', action: 'new' %>

@@ -1,0 +1,15 @@
+current directory: /Users/yoidea/Study/rails_exercises/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+/Users/yoidea/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20180615-12262-1n55c47.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yoidea/Study/rails_exercises/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/yoidea/Study/rails_exercises/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/yoidea/Study/rails_exercises/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20180615-12262-1rtltf7
