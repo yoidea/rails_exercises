@@ -1,7 +1,7 @@
 <h1>Posts#index</h1>
 <ul class="collection">
 	<% @posts.each do |p| %>
-		<li class="collection-item grey darken-2"><%= p.text %><a href="#!" class="secondary-content"><i class="red">削除</i></a></li>
+		<li class="collection-item grey darken-2"><%= p.text %><a href="del?id=<%= p.id %>" class="secondary-content"><i class="red-text">削除</i></a></li>
 	<% end %>
 </ul>
 

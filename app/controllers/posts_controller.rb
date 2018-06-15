@@ -8,7 +8,7 @@ class PostsController < ApplicationController
   def del
     @id = params[:id]
     if @id != ''
-      Post.find(text: @text).save
+      Post.find(@id).delete
     end
   end
   def index
