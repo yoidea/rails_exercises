@@ -1,13 +1,11 @@
 <h1>Posts#index</h1>
-<p>discription</p>
 <ul>
 	<% @posts.each do |p| %>
 	<li><%= p.text %></li>
 	<% end %>
-	<%= link_to 'データを追加', text: 'test', action: 'new' %>
-	<form method="get" action="new">
+</ul>
+<form method="get" action="new">
 	<input type="text" name="text">
 	<input type="submit" value="送信">
-	</p>
-	</form>
-</ul>
+</form>
+<%= link_to 'testを追加', text: 'test', action: 'new' %>
