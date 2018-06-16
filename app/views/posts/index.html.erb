@@ -1,11 +1,14 @@
 <h1>Posts#index</h1>
 <ul class="collection">
 	<% @posts.each do |p| %>
-		<li class="collection-item grey darken-2"><%= p.text %><a href="del?id=<%= p.id %>" class="secondary-content"><i class="red-text">削除</i></a></li>
+		<li class="collection-item grey darken-2">
+			<a href="show/<%= p.id %>" class="white-text"><%= p.text %></a>
+			<a href="del/<%= p.id %>" class="secondary-content"><i class="red-text">del</i></a>
+		</li>
 	<% end %>
 </ul>
 
 <form class="form" method="get" action="new">
-	<input class="white-text" type="text" name="text">
-	<input class="btn btn-large" type="submit" value="送信">
+	<input class="white-text" type="text" name="text" placeholder="input text here...">
+	<input class="btn btn-large" type="submit" value="post (get)">
 </form>
